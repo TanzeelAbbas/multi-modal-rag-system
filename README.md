@@ -46,6 +46,7 @@ docker-compose up --build -d
 # Verify containers
 docker-compose ps
 
+```
 
 ## Dual Access Points 🔌
 
