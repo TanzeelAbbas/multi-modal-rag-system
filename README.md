@@ -1,4 +1,4 @@
-# Multi-Modal RAG System 🚀
+# Multi-Modal RAG System 
 
 Advanced Retrieval-Augmented Generation system for document processing and question answering
 
@@ -48,7 +48,7 @@ docker-compose ps
 
 ```
 
-## Dual Access Points 🔌
+## Dual Access Points 
 
 1. **REST API** - Programmatic access at `:8080`
 2. **Web Interface** - User-friendly UI at `:8501`
