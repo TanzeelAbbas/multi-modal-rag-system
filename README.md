@@ -53,7 +53,7 @@ docker-compose ps
 1. **REST API** - Programmatic access at `:8080`
 2. **Web Interface** - User-friendly UI at `:8501`
 
-## Access Points 🌐
+## Access Points 
 
 | Component        | Type       | URL                          | Port  |
 |------------------|------------|------------------------------|-------|
