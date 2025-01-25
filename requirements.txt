@@ -1,0 +1,26 @@
+pytesseract
+PyPDF2
+python-magic
+tabula-py
+Pillow
+langchain
+sentence-transformers
+chromadb
+fastapi
+streamlit
+uvicorn
+langchain-google-genai
+google-generativeai
+python-multipart
+aiofiles
+pandas
+python-dotenv
+
+# brew install openjdk
+# brew install libmagic
+
+# sudo apt-get install libmagic1 libmagic-dev
+# sudo apt install openjdk-17-jdk
+
+# brew install tesseract
+# sudo apt install tesseract-ocr

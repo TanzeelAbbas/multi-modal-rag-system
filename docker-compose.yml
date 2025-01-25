@@ -1,0 +1,31 @@
+services:
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data/documents:/app/data/documents
+      - ./data/processed_documents:/app/data/processed_documents
+      - ./data/vectordb:/app/vectordb
+    env_file:
+      - .env
+    restart: unless-stopped
+    command: uvicorn backend.main:app --host 0.0.0.0 --port 8080  
+
+  streamlit:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data/documents:/app/data/documents
+      - ./data/vectordb:/app/vectordb
+    env_file:
+      - .env
+    restart: unless-stopped
+    command: streamlit run frontend/app.py --server.port 8501 --server.address 0.0.0.0  
+    depends_on:
+      - api
