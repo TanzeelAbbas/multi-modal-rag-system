@@ -2,6 +2,8 @@
 
 Advanced Retrieval-Augmented Generation system for document processing and question answering
 
+![Project Screenshot](assets/demo.png)
+
 ## Features ✨
 
 - **Multi-Document Support**
