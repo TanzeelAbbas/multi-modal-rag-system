@@ -36,7 +36,7 @@ Advanced Retrieval-Augmented Generation system for document processing and quest
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/multi-modal-rag-system.git
+git clone https://github.com/TanzeelAbbas/multi-modal-rag-system
 cd multi-modal-rag-system
 
 # Create environment file
